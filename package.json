@@ -65,5 +65,8 @@
   "scripts": {
     "cover": "./node_modules/.bin/nyc npm test",
     "test": "./node_modules/.bin/mocha ./index.spec.js"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
